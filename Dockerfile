@@ -1,4 +1,4 @@
 FROM java:8
 COPY JavaAutoBuild.java .
-Run javac JavaAutoBuild.java
+RUN javac JavaAutoBuild.java
 CMD ["java", "JavaAutoBuild"]
